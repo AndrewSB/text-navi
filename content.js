@@ -89,7 +89,7 @@ const copy = {
 }
 
 const images = {
-  logo: 'http://i.imgur.com/XgyRxYx.jpg?1',
+  logo: 'http://i.imgur.com/XgyRxYx.jpg?',
   background: {
     demo: 'http://i.imgur.com/2bPEsxN.jpg',
     head: 'http://i.imgur.com/iK24zVj.png',
