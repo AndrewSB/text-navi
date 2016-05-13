@@ -9,7 +9,7 @@ const copy = {
   },
   description: {
     header: 'Navi works for you',
-    description: 'Navi makes life easy. Every part of the experience has been designed around your convenience. One question and we connect you with someone who can take care of your work.',
+    description: 'Navi makes life easy. Every part of the experience has been designed around your convenience. One question and we connect you with someone who can take care of your problem.',
     products: [
       {
         url: 'http://i.imgur.com/ciI38hF.png',
@@ -24,7 +24,7 @@ const copy = {
   demo: {
     chat: [
       {
-        text: 'Hey Navi, I am swamped with work, and I have to care of this little project. But I barely have no time to take care of it right now. Can you help?',
+        text: 'Hey Navi, I am swamped with work, and I have to take care of this little project for which I have barely time. Can you help?',
         fromMe: true,
       },
       {
