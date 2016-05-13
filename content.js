@@ -1,15 +1,15 @@
 const copy = {
   header: {
-    title: 'Lily',
+    title: 'Navi',
   },
   head: {
-    title: 'We make incorporation short and easy',
-    subtitle: 'Lily is a service that connects you to experts that help you to incorporate your business',
+    title: 'A digital assistant through Messenger',
+    subtitle: 'We take care of your work so you can focus on what matters',
     callToAction: 'Start now',
   },
   description: {
-    header: 'Lily incorporates for you',
-    description: 'Lily is the smartest way to incorporate. Every part of the experience has been designed around your convenience. One text and we\'ll walk you through the whole process.',
+    header: 'Navi works for you',
+    description: 'Navi makes life easy. Every part of the experience has been designed around your convenience. One question and we connect you with someone who can take care of your work.',
     products: [
       {
         url: 'http://i.imgur.com/ciI38hF.png',
@@ -24,19 +24,19 @@ const copy = {
   demo: {
     chat: [
       {
-        text: "Hey Lily, the app I am building is doing really well. I want to raise money from investors, so I am thinking about incorporating",
+        text: 'Hey Navi, I am swamped with work, and I have to care of this little project. But I barely have no time to take care of it right now. Can you help?',
         fromMe: true,
       },
       {
-        text: "Hey Andrew, that sounds great. If you’re thinking about raising money, you probably need a C-Corp based in Delaware",
+        text: 'Hey! No problem - we are here to help! What do you need help with?',
         fromMe: false,
       },
       {
-        text: "That makes sense. Let’s do it!",
+        text: 'Sounds good, I need an extra pair of hands for my design startup, as I am getting more clients than I can handle',
         fromMe: true,
       },
       {
-        text: "Ok great, I’ll walk you through the steps",
+        text: 'Ok great, I’ll look into solutions for you',
         fromMe: false,
       },
     ],
@@ -69,17 +69,17 @@ const copy = {
   callToAction: {
     title: 'Thinking about incorporating?',
     subtitle: 'Save time and focus on what matters!',
-    buttonTitle: 'Get started now',
+    buttonTitle: 'Ask now',
   },
   footer: {
     left: {
-      title: 'LILY',
-      description: 'Lily is a service that connects you to experts that help you to incorporate your business.',
+      title: 'NAVI',
+      description: 'A digital assistant through Messenger',
     },
     center: {
       title: 'CONTACT',
       phoneNumber: '+1 (650) 815-5781',
-      email: 'hi@textlily.com',
+      email: 'hi@textnavi.com',
     },
     right: {
       title: 'DISCLAIMER',
@@ -91,9 +91,9 @@ const copy = {
 const images = {
   logo: 'http://i.imgur.com/1wLaA85.png',
   background: {
-    demo: 'http://i.imgur.com/W98uxfx.jpg',
-    head: 'http://i.imgur.com/rzJqpd8.jpg',
-    callToAction: 'http://i.imgur.com/PBzT5oF.jpg',
+    demo: 'http://i.imgur.com/2bPEsxN.jpg',
+    head: 'http://i.imgur.com/iK24zVj.png',
+    callToAction: 'http://i.imgur.com/whkWmih.jpg',
   },
 }
 
