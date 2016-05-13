@@ -1,8 +1,9 @@
 view Main {
-  <h1>Hello world!</h1>
-
-  $ = {
-    color: 'darkgray',
-    padding: 20
-  }
+  <Home.Header />
+  <Home.Head />
+  <Home.Description />
+  <Home.Demo />
+  <Home.Expose />
+  <Home.CallToAction />
+  <Home.Footer />
 }

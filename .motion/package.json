@@ -6,6 +6,10 @@
   "version": "1.0.0",
   "main": "",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "react-motion": "^0.4.3",
+    "react-stickynode": "^1.0.24",
+    "rebass": "^0.2.6"
+  },
   "installed": []
 }
