@@ -42,22 +42,22 @@ const copy = {
     ],
   },
   expose: {
-    title: 'Taking the stress out of incorporation.',
+    title: 'Taking the stress out of life.',
     iconsAndDescriptions: [
       {
         image: "http://i.imgur.com/96TgMfH.jpg",
         heading: "Personalized Assistance",
-        description: "We use our expertise to tailor your business needs",
+        description: "We focus on your work from beginning to end",
       },
       {
         image: "http://i.imgur.com/sw8zhvM.jpg",
         heading: "At Your Service",
-        description: "We do the research and the leg work helping you save time and energy",
+        description: "We find the right people who can take of your problems",
       },
       {
         image: "http://i.imgur.com/Bvlw4ag.jpg",
-        heading: "Incorporation Made Easy",
-        description: "We provide forms and everything else that you will need",
+        heading: "Ask Us Anything",
+        description: "We take care of any problems you might have",
       },
       {
         image: "http://i.imgur.com/7RhVux2.jpg",
@@ -67,7 +67,7 @@ const copy = {
     ],
   },
   callToAction: {
-    title: 'Thinking about incorporating?',
+    title: 'What do you need help with?',
     subtitle: 'Save time and focus on what matters!',
     buttonTitle: 'Ask now',
   },
@@ -82,8 +82,8 @@ const copy = {
       email: 'hi@textnavi.com',
     },
     right: {
-      title: 'DISCLAIMER',
-      disclaimer: 'Though we aren\'t lawyers and can\'t provide legal advice, we connect you with attorneys who can.',
+      title: '',
+      disclaimer: '',
     },
   },
 }
