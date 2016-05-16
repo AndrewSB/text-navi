@@ -10,16 +10,6 @@ const copy = {
   description: {
     header: 'Navi works for you',
     description: 'Navi makes life easy. Every part of the experience has been designed around your convenience. One question and we connect you with someone who can take care of your problem.',
-    products: [
-      {
-        url: 'http://i.imgur.com/ciI38hF.png',
-        description: 'C-Corp',
-      },
-      {
-        url: 'http://i.imgur.com/Azb6Wek.png',
-        description: 'LLC'
-      },
-    ]
   },
   demo: {
     chat: [

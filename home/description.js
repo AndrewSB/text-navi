@@ -5,15 +5,9 @@ view Home.Description {
   <h2>{copy.description.header}</h2>
   <h3>{copy.description.description}</h3>
 
-  <products>
-    <product repeat={copy.description.products}>
-      <img src={_.url} />
-    </product>
-  </products>
-
   $ = [styles.flexAndCenter ,{
     flexDirection: 'column',
-    padding: [22],
+    padding: [88, 22],
     textAlign: 'center',
   }]
 
@@ -33,14 +27,4 @@ view Home.Description {
       padding: 'inherit'
     },
   }
-
-  $products = {
-    display: 'flex',
-    justifyContent: 'space-around',
-    width: '80%'
-  }
-
-  $product = [styles.flexAndCenter, {
-    flexDirection: 'column',
-  }]
 }
