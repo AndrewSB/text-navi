@@ -87,7 +87,7 @@ const images = {
   },
 }
 
-const messengerLink = 'http://m.me/192015661176397'
+const messengerLink = 'http://m.me/navimatch'
 
 export default {
   copy,
