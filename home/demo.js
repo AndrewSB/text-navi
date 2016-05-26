@@ -7,8 +7,9 @@ view Home.Demo {
   let visibleBubbles = []
 
   on.scroll(window, () => {
-    let hasScrolledHalfwayDown = 0.5 < (window.pageYOffset / window.outerHeight)
-    if (hasScrolledHalfwayDown && !hasStartedBubbling) {
+    let hasScrolledPartwayDown = 0.75 < (window.pageYOffset / window.outerHeight)
+    if (hasScrolledPartwayDown && !hasStartedBubbling) {
+      console.log('did start bubbling')
       hasStartedBubbling = true
       startBubbling()
     }
@@ -17,6 +18,7 @@ view Home.Demo {
   let hasStartedBubbling = false
   let startBubbling = () => {
     on.every(1 * 1000, () => {
+      console.log("adding chat bubble")
       let newChatBubble = copy.demo.chat[visibleBubbles.length]
       if (newChatBubble !== undefined) {
         visibleBubbles.push(newChatBubble)
